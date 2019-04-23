@@ -1,0 +1,17 @@
+{
+  "name": "message-app",
+  "description": "",
+  "main": "",
+  "authors": [
+    "bkaan <bkaanaribali@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "chat",
+    "nodejs"
+  ],
+  "homepage": "https://github.com/bkaan/message-app",
+  "dependencies": {
+    "angular": "^1.7.8"
+  }
+}

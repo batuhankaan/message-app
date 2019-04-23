@@ -1,5 +1,18 @@
 extends layout
 
+append stylesheets
+  link(rel='stylesheet', href='/stylesheets/index.css')
+
 block content
-  h1= title
-  p Welcome to #{title}
+  div(ng-controller="indexController")
+  .login-box
+    .row.collapse.expanded
+      .small-12.medium-6.column.small-order-1.medium-order-2.login-box-social-section
+        .login-box-social-section-inner
+          span.login-box-social-headline
+            | Sign in with
+            br
+            | your social network
+          a.login-box-social-button-facebook Log in with facebook
+  append javascripts 
+    script(src="/javascripts/controller/indexController.js")
