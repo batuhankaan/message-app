@@ -120,7 +120,7 @@
     line-height: 1;
     text-align: center;
     cursor: pointer;
-    background-color: #3b5998;
+    background-color: #c92929;
     color: #fefefe;
     display: block;
     width: 100%;
@@ -136,7 +136,7 @@
   }
   
   .login-box-social-button-facebook:hover, .login-box-social-button-facebook:focus {
-    background-color: #2f477a;
+    background-color: #ff4444;
     color: #fefefe;
   }
   
@@ -169,7 +169,7 @@
   }
   
   .login-box-social-button-twitter:hover, .login-box-social-button-twitter:focus {
-    background-color: #1a8fe8;
+    background-color: #e8281a;
     color: #fefefe;
   }
   
